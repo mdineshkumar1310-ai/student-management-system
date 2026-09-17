@@ -35,8 +35,10 @@ STUDENT_MANAGEMEBT/
 ├── 📄 pom.xml
 ├── 📄 .gitignore
 ├── 📄 mvnw
-
-
+```
+├── 📄 mvnw.cmd
+└── 📄 README.md
+```
 # 🏗️ System Architecture
 
 ```text
@@ -72,7 +74,19 @@ STUDENT_MANAGEMEBT/
               │      MySQL      │
               │     Database    │
               └─────────────────┘
-```
-├── 📄 mvnw.cmd
-└── 📄 README.md
-```
+
+📚 Project Information
+| Category           | Details                   |
+| ------------------ | ------------------------- |
+| 🎓 Project         | Student Management System |
+| 💻 Type            | CRUD Web Application      |
+| 🎨 Frontend        | HTML, CSS, JavaScript     |
+| ⚙️ Backend         | Java Spring Boot          |
+| 🗄️ Database       | MySQL                     |
+| 🌐 API             | REST API                  |
+| 🧪 Testing         | Postman                   |
+| 🔧 Version Control | Git                       |
+| ☁️ Repository      | GitHub                    |
+
+
+
