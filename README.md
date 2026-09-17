@@ -1,4 +1,6 @@
-📂 Project Structure
+# 📂 Project Structure
+
+```text
 STUDENT_MANAGEMEBT/
 │
 ├── 📁 frontend/
@@ -33,10 +35,11 @@ STUDENT_MANAGEMEBT/
 ├── 📄 pom.xml
 ├── 📄 .gitignore
 ├── 📄 mvnw
-├── 📄 mvnw.cmd
-└── 📄 README.md
 
-System Architecture
+
+# 🏗️ System Architecture
+
+```text
                     👤 USER
                       │
                       ▼
@@ -48,40 +51,28 @@ System Architecture
                        │ Fetch API
                        ▼
               ┌─────────────────┐
-              │   REST API      │
-              │ Spring Boot     │
+              │    REST API     │
+              │   Spring Boot   │
               └────────┬────────┘
                        │
                        ▼
               ┌─────────────────┐
-              │ SERVICE LAYER   │
-              │ Business Logic  │
+              │  SERVICE LAYER  │
+              │  Business Logic │
               └────────┬────────┘
                        │
                        ▼
               ┌─────────────────┐
-              │ REPOSITORY      │
+              │   REPOSITORY    │
               │ Spring Data JPA │
               └────────┬────────┘
                        │
                        ▼
               ┌─────────────────┐
-              │     MySQL       │
-              │    Database     │
+              │      MySQL      │
+              │     Database    │
               └─────────────────┘
-
-
-📚 Project Information
-| Category           | Details                   |
-| ------------------ | ------------------------- |
-| 🎓 Project         | Student Management System |
-| 💻 Type            | CRUD Web Application      |
-| 🎨 Frontend        | HTML, CSS, JavaScript     |
-| ⚙️ Backend         | Java Spring Boot          |
-| 🗄️ Database       | MySQL                     |
-| 🌐 API             | REST API                  |
-| 🧪 Testing         | Postman                   |
-| 🔧 Version Control | Git                       |
-| ☁️ Repository      | GitHub                    |
-
-
+```
+├── 📄 mvnw.cmd
+└── 📄 README.md
+```
